@@ -8601,23 +8601,27 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
-			/* styles.css *//* styles.css */
+			
 .skill-icon {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	width: 40px;  /* Adjust size as needed */
-	height: 40px; /* Adjust size as needed */
+	width: 80px;  /* Adjusted size */
+	height: 80px; /* Adjusted size */
 	border-radius: 50%;
-	background-color: #306998; /* Python blue */
 	overflow: hidden; /* Ensures the image stays within the circle */
 	margin: 10px; /* Space between icons */
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a small shadow */
-  }
-  
-  .skill-icon img {
-	width: 100%; /* Ensure it fits within the container */
-	height: 100%; /* Ensure it fits within the container */
-	object-fit: cover; /* Ensures the image covers the entire container */
-  }
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 1.0); /* Optional: adds a small shadow */
+}
+			  
+.skill-icon img {
+	width: 60%; /* Increased size to make the icon appear larger */
+	height: 60%; /* Increased size to make the icon appear larger */
+	object-fit: contain; /* Ensures the image is contained within the circular container */
+}
+
+mark {
+	background-color: black;
+	color: white;
+}
   
